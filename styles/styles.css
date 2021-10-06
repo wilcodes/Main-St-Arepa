@@ -1,5 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300;400;500;600&display=swap');
+
+
+/*Defining some global styles */
 
 *{
     padding: 0;
     margin: 0;
+   
+  
+}
+
+html, body{
+    /* font-family: 'Arvo', serif;*/
+    font-family: 'Quicksand', sans-serif;
+    font-family: 2em;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*First Section styles: Navigation Bar and contact Bar */
+.navContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #cccccc;
+    width: 100%;
+}
+
+
+#contactBar{
+    background-color: #e4a33a;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.7em;
+}
+
+#contactBar p{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.navContainer nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    padding: 0.7em;
+    box-shadow: 0 4px 4px #494545;
+}
+
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    list-style: none;
+    color: #d3d5d7;
+    margin: 0 8em;
 }

@@ -237,3 +237,54 @@ button:hover{
     color: #cccccc;
     background-color: #cf7053;
 }
+
+/* ----------------------------------------------- */
+/* section 4 SECTION */
+/* ----------------------------------------------- */
+
+
+#contactInformation{
+
+   /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;*/
+}
+.contact{
+   /* grid-area: 1 / 1 / 2 / 2;*/
+ 
+}
+
+.hours{
+   /* grid-area: 1 / 2 / 2 / 3;*/
+   
+}
+
+.findUs{
+ /*   grid-area: 1 / 3 / 2 / 4;*/
+
+
+}
+
+
+/* ----------------------------------------------- */
+/* fOOTER SECTION */
+/* ----------------------------------------------- */
+
+
+
+
+footer{
+    background-color: #e4a33a;
+
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+
+    text-align: center;
+     font-size: 0.7em;
+     padding: 1em;
+}

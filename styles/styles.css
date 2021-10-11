@@ -61,7 +61,7 @@ html, body{
 #navContainer nav {
     background-color: rgba(0, 0, 0, 0.7);
     box-sizing: border-box;
-    padding: 0.3em;
+    padding: 0.2em;
     box-shadow: 0 1px 1px #5f5d5d;
 }
 
@@ -91,8 +91,8 @@ nav ul {
     flex-flow: row wrap;
     justify-content: space-around;
     text-align: center;
-    font-size: 0.9em;
-    text-transform: uppercase;
+    font-size: 0.7em;
+
     list-style: none;
     color: #d3d5d7;
     margin: 0 4em;
@@ -254,7 +254,7 @@ button{
     font-size: 0.8em;
     padding: 0.8em;
     cursor: pointer;
-    filter: drop-shadow(2px 2px 1px #000000);
+    filter: drop-shadow(1px 1px 1px #000000);
     border: none;
     background-color: #d3d5d7;
     transition: 0.3s;
@@ -581,9 +581,9 @@ button{
 
 
   @media only screen and (min-width: 1800px)  {
-
+  
     nav ul {
-        font-size: 1.2em;
+        font-size: 1.4em;
         margin: 0 30em;
     }
 
@@ -601,6 +601,10 @@ button{
     main p {
         font-size: 2.8em;
         margin: 0.5em 3em ;
+    }
+    
+    button{
+        filter: drop-shadow(2px 2px 1px #000000);
     }
 
     .iconTwo{

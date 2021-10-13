@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Main Street Arepa</title>
-        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+        <title>Menu | Main Street Arepa</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="../styles/styles.css"/>
@@ -33,7 +33,7 @@
 
         </div>
 
-        <header>
+        <header id="menu">
             <div id="logoContainer" >
                 <img src="../assets/MainStLogo.png" alt="Main Street Arepa Logo" class="mainLogo"/>
             </div>
@@ -42,11 +42,17 @@
                     Menu
             </h1>
            <div id="spanContainer">
-            <span/>
+                <span/>
            </div>
+
+           <h2 class="subDescription">
+               Feel free to try Everything!
+               <ion-icon name="restaurant-outline"></ion-icon>
+           </h2>
+           
         </header>
 
-        <section>
+        <section class="appetizer">
             <div class="labelContainer">
 
                 <h2 >
@@ -54,7 +60,7 @@
                 </h2>
            
                 <div class="spanContainer">
-                    <span/>
+                    <span></span>
                 </div>
 
             </div>
@@ -63,29 +69,38 @@
 
                     <div class="foodItem">
                             <div class="FoodBox Appetizer1"></div>
-                            <p class="FoodName">Arepa/Empanada Combo</p>
+                            <p class="FoodName">Sticks /Empanada Combo</p>
+                            <p class="description">Combo with two mozarella sticks and three cheese empanadas.</p>
                             <p class="FoodPrice"> $9.00</p>
                     </div>
 
                     <div class="foodItem">
                         <div class="FoodBox Appetizer2"></div>
-                        <p class="FoodName">Empanadas/ With choice of filing</p>
+                        <p class="FoodName">Empanadas</p>
+                        <p class="description">Three Empanadas with your choice of filling. </p>
                         <p class="FoodPrice"> $10.00</p>
                     </div>
 
                     <div class="foodItem">
                         <div class="FoodBox Appetizer3"></div>
                         <p class="FoodName">Mozarella Sticks</p>
+                        <p class="description">Six mozarella sticks with garlic dipping sauce.</p>
                         <p class="FoodPrice"> $7.00</p>
                     </div>
 
-
+                    <div class="foodItem">
+                        <div class="FoodBox Appetizer4"></div>
+                        <p class="FoodName">Arepa Combo</p>
+                        <p class="description">Four different mini Arepas with different fillings.</p>
+                        <p class="FoodPrice"> $14.00</p>
+                    </div>
 
             </div>
             
+
         </section>
 
-        <section>
+        <section class="Entrees">
             <div class="labelContainer">
                 
                 <h2 >
@@ -93,14 +108,15 @@
                 </h2>
            
                 <div class="spanContainer">
-                    <span/>
+                    <span></span>
                 </div>
 
             </div>
-            
+
+
         </section>
 
-        <section>
+        <section class="dessert">
             <div class="labelContainer">
                 
                 <h2 >
@@ -108,7 +124,7 @@
                 </h2>
            
                 <div class="spanContainer">
-                    <span/>
+                    <span></span>
                 </div>
 
             </div>
@@ -123,14 +139,14 @@
     <section id="contactInformation">
 
         <div class="contact"> 
-            <h1> Contact us  </h1>
+            <h2> Contact us  </h2>
             <p> (832)-800-9000</p>
             <p> areperamainst@gmail.com</p>
         </div>
 
         <div class="hours">
 
-            <h1> Hours of Service </h1>
+            <h2> Hours of Service </h2>
             <h4> Mon, Tue</h4>
             <p> 2:00 pm - 10:00 pm</p>
             <h4> Fri, Sat </h4>
@@ -141,7 +157,7 @@
         </div>
 
         <div class="findUs">
-            <h1> Find us on </h1>
+            <h2> Find us on </h2>
             <ion-icon name="logo-facebook" class="iconTwo"></ion-icon>
             <ion-icon name="logo-instagram" class="iconTwo"></ion-icon>
 

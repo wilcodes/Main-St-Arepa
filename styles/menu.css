@@ -1,11 +1,31 @@
+/* ----------------------------------------------- */
+/* Header styless
+/* ----------------------------------------------- */
+#menu{
+margin-bottom: 1em;
+}
+
+.subDescription{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 0.7em;
+    text-transform: capitalize;
+    font-weight: 800;
+    color:#000000;
+}
 
 /* ----------------------------------------------- */
 /* Sections Styles
 /* ----------------------------------------------- */
-section h2{
+.labelContainer h2{
      font-family: 'Arvo', serif;
      text-align: center;
+    font-size: 1.2em;
 }
+
+
+
+
 
 .spanContainer span{
     display:inline-block;
@@ -13,16 +33,25 @@ section h2{
     width: 10em;
     background: #cf7053;
     border-radius: 9px;
+    margin: 0.8em 0;
 }
 
 .spanContainer{
     text-align: center;
+    margin: 0;
 }
 
 .FoodContainer{
-    margin-top: 1.2em;
     display: flex;
     flex-flow: column;
+}
+
+.tinLine{
+    display:inline-block;
+    height: 0.5px;
+    width: 80%;
+    background: #000000;
+    margin-top: 2em;
 }
 
 /* ----------------------------------------------- */
@@ -37,10 +66,18 @@ section h2{
     border-radius: 10px;
 }
 
-.Appetizer1{
-    background-image: url(../assets/VenezuelanFoodCombo.jpg);
-   
-}   
+.appetizer, .dessert, .entrees{
+    background-color: #d3d5d7;
+    padding: 1.5em;
+    }
+    
+    .description{
+        font-size: 1em;
+    }
+    
+    
+
+
 
 .FoodName{
     font-size: 1em;
@@ -52,12 +89,17 @@ section h2{
 
 .FoodPrice{
     color: #cf7053;
-    font-size: 0.9em;
+    font-size: 1em;
     margin-top: 0.8em;
     text-align: center;
     font-weight: 700;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
+
+.Appetizer1{
+    background-image: url(../assets/VenezuelanFoodCombo.jpg);
+   
+}   
 
 .Appetizer2{
     background-image: url(../assets/VenezuelanFoodEmpanada.jpg);  
@@ -66,3 +108,9 @@ section h2{
 .Appetizer3{
     background-image: url(../assets/VenezuelanFoodStick.jpg);  
 }
+
+.Appetizer4{
+    background-image: url(../assets/VenezuelanFoodArepa5.jpg);  
+}
+
+

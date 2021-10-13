@@ -125,9 +125,8 @@ header h1 {
     font-family: 'Arvo', serif;
     text-align: center;
     margin-top: 0.5em;
-    font-size:1.2em;
+    font-size:1.5em;
     font-weight: bold;
-    margin-top: 1em;
     margin-left: 2em;
     margin-right: 2em;
 }
@@ -279,12 +278,9 @@ button{
     background-color: #000000;
 }
 
-
-
 /* ----------------------------------------------- */
 /* section 4 SECTION */
 /* ----------------------------------------------- */
-
 
 #contactInformation{
 
@@ -294,7 +290,8 @@ button{
   
 }
 
-#contactInformation h1{
+#contactInformation h2{
+    font-size: 1.2em;
     color: #cf7053;
     margin-bottom: 0.6em;
  
@@ -560,7 +557,7 @@ button{
 /* Contact Section */
 /* ----------------------------------------------- */
 
-    #contactInformation h1{
+    #contactInformation h2{
         margin-bottom: 0.6em;
         font-size: 1.9em;
     }

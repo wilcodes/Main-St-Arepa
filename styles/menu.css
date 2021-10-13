@@ -1,7 +1,8 @@
 /* ----------------------------------------------- */
 /* Header styless
 /* ----------------------------------------------- */
-#menu{
+
+#menuHeader{
 margin-bottom: 1em;
 }
 
@@ -66,9 +67,16 @@ margin-bottom: 1em;
     border-radius: 10px;
 }
 
-.appetizer, .dessert, .entrees{
-    background-color: #d3d5d7;
+.appetizer, .dessert{
+   background-color: #d3d5d7;
     padding: 1.5em;
+    }
+
+  
+
+    .entrees{
+       /* background-color: #e4a33a;*/
+       padding: 1.5em;
     }
     
     .description{
@@ -113,4 +121,27 @@ margin-bottom: 1em;
     background-image: url(../assets/VenezuelanFoodArepa5.jpg);  
 }
 
+.Entree1{
+    background-image: url(../assets/VenezuelanFoodArepa3.jpg);  
+}
 
+.Entree2{
+    background-image: url(../assets/VenezuelanFoodBurger.jpg);  
+}
+
+.Entree3{
+    background-image: url(../assets/VenezuelanFoodPabellon.jpg);  
+}
+
+.Entree4{
+    background-image: url(../assets/VenezuelanFoodArepa4.jpg);  
+}
+
+
+/* ----------------------------------------------- */
+/* Footer Section styless
+/* ----------------------------------------------- */
+
+#contactInformation{
+    background-color: #f8f8f8;
+}

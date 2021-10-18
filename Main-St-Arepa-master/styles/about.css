@@ -1,0 +1,67 @@
+
+
+#about{
+    background-color: #ffffff;
+    padding: 1.5em;
+}
+.boxMap{
+    text-align: center;
+ }
+
+ header{
+    margin-bottom: 1em;
+ }
+
+ iframe{
+     border: 0;
+     width: 80%;
+     height: 170px;
+     margin: 1em auto;
+ }
+
+#about .subLabel{
+    font-size: 1.4em;
+    color: #cf7053;
+    text-align: center;
+}
+
+#about .aboutDescription{
+
+    font-size: 0.9em;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+
+@media only screen and (min-width: 700px)  {
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    iframe{
+        width: 80%;
+        height: 340px;
+        margin: 1em auto;
+    }
+   
+   #about .subLabel{
+
+       font-size: 2em;
+       color: #cf7053;
+       text-align: center;
+   }
+   
+   #about .aboutDescription{
+   
+       font-size: 1.2em;
+       word-spacing: 2px;
+       padding: 1em;
+   }
+
+    
+}

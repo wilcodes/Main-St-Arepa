@@ -21,7 +21,7 @@ margin-bottom: 1em;
 .labelContainer h2{
      font-family: 'Arvo', serif;
      text-align: center;
-    font-size: 1.2em;
+     font-size: 1.2em;
 }
 
 
@@ -42,10 +42,7 @@ margin-bottom: 1em;
     margin: 0;
 }
 
-.FoodContainer{
-    display: flex;
-    flex-flow: column;
-}
+
 
 .tinLine{
     display:inline-block;
@@ -61,8 +58,8 @@ margin-bottom: 1em;
 .FoodBox {
     background-size: cover;
     background-position: center;
-    width: 60%;
-    height: 130px;
+    width: 80%;
+    height: 190px;
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -75,18 +72,19 @@ margin-bottom: 1em;
   
 
     .entrees{
-       /* background-color: #e4a33a;*/
        padding: 1.5em;
     }
     
     .description{
         font-size: 1em;
+        margin: 0 auto;
+        width: 65%;
+        text-align: center;
+        
     }
+
     
     
-
-
-
 .FoodName{
     font-size: 1em;
     margin-top: 1em;
@@ -102,6 +100,11 @@ margin-bottom: 1em;
     text-align: center;
     font-weight: 700;
     margin-bottom: 1.5em;
+    
+}
+
+.FoodPriceContainer{
+    margin: 0 auto;
 }
 
 .Appetizer1{
@@ -137,6 +140,22 @@ margin-bottom: 1em;
     background-image: url(../assets/VenezuelanFoodArepa4.jpg);  
 }
 
+.Dessert1{
+    background-image: url(../assets/dessert1.jpg);
+}
+
+.Dessert2{
+    background-image: url(../assets/dessert2.jpg);
+}
+
+.Dessert3{
+    background-image: url(../assets/dessert3.jpg);
+}
+
+.Dessert4{
+    background-image: url(../assets/dessert4.jpg);
+}
+
 
 /* ----------------------------------------------- */
 /* Footer Section styless
@@ -144,4 +163,92 @@ margin-bottom: 1em;
 
 #contactInformation{
     background-color: #f8f8f8;
+}
+
+
+/* ----------------------------------------------- */
+/* Media Queries  */
+/* ----------------------------------------------- */
+@media only screen and (min-width: 700px)  {
+    .FoodBox {
+        width: 50%;
+        height: 220px;
+        margin: 0.5em auto;
+        
+    }
+
+    .subDescription{
+        font-size: 1.6em;
+        margin-top: 0.7em;
+        margin-bottom: 1em;
+        text-transform: capitalize;
+        
+    }
+
+    .labelContainer h2{
+        
+        font-size: 1.7em;
+   }
+
+ 
+    .description{
+     font-size: 1.2em;
+     
+     
+     }
+
+ 
+ 
+    .FoodName{
+    font-size: 1.5em;
+    margin-top: 1.2em;
+    }
+
+    .FoodPrice{
+    
+    font-size: 1.3em;
+    margin-top: 0.8em;
+    margin-bottom: 1.6em;
+ 
+}
+   
+    
+    
+
+}
+
+@media only screen and (min-width: 1023px)  {
+
+    .FoodContainer{
+        display: grid;
+        flex-flow: column;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        padding: 1em;
+    }
+
+    .FoodBox {
+        width: 70%;
+        height: 420px;
+        
+    }
+
+    .description{
+        width: 70%;
+    }
+
+    .subDescription{
+        font-size: 1.8em;
+        margin-bottom: 2em;
+    }
+
+    .labelContainer{
+        font-size: 1.7em;
+    }
+
+
+    
+
 }

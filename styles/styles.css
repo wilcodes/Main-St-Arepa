@@ -149,6 +149,11 @@ header span{
 }
 
 
+#logoContainer img{
+    width: 200px;
+}
+
+
 
 /* ----------------------------------------------- */
 /* Third Section styles: Main content positioned with grid */
@@ -380,6 +385,11 @@ footer p {
 .mainLogo{
     width: auto;
 }
+
+#logoContainer img{
+    width: 400px;
+}
+
 
 /* ----------------------------------------------- */
 /* Main */

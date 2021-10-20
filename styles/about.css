@@ -1,4 +1,10 @@
-
+main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 1em;
+}
 
 #about{
     background-color: #ffffff;
@@ -14,9 +20,14 @@
 
  iframe{
      border: 0;
-     width: 80%;
+     width: 95%;
      height: 170px;
      margin: 1em auto;
+ }
+
+ .boxText{
+     margin: 0 auto;
+     width: 95%;
  }
 
 #about .subLabel{
@@ -39,25 +50,18 @@
 
 @media only screen and (min-width: 700px)  {
 
-    main{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+    .boxText{
+        width: 82%;
     }
 
     iframe{
-        width: 80%;
+        width: 82%;
         height: 340px;
-        margin: 1em auto;
     }
    
    #about .subLabel{
       
        font-size: 2em;
-       color: #cf7053;
-       text-align: center;
    }
 
    #about  .map{
@@ -67,8 +71,7 @@
    #about .aboutDescription{
    
        font-size: 1.2em;
-       word-spacing: 2px;
-       padding: 1em;
+       padding: 0.5em;
    }
 
    

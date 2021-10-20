@@ -326,7 +326,7 @@ font-size: 1em;
 
 .iconTwo{
     font-size: 2em;
-    margin: 0 0.2em;
+    margin-right: 0.2em;
     cursor: pointer;
 }
 
@@ -515,7 +515,8 @@ button{
     }
 .iconTwo{
     font-size: 2.5em;
-    margin: 0 0.2em;
+    margin-right: 0.4em;
+    margin: 0;
 }
 
 
@@ -593,7 +594,7 @@ button{
         }
     .iconTwo{
         font-size: 3em;
-        margin: 0 0.2em;
+        margin-right:0.4em ;
     }
   }
 
@@ -628,6 +629,6 @@ button{
 
     .iconTwo{
         font-size: 4.5em;
-        margin: 0 0.2em;
+        
     }
   }

@@ -231,7 +231,19 @@ main{
 }
 
 
-
+a p{
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #000000;
+    font-size: 0.8em;
+    padding: 0.8em;
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 1px #000000);
+    border: none;
+    background-color: #d3d5d7;
+    transition: 0.3s;
+}
 
 
 main p {
